@@ -1,5 +1,5 @@
 package Adapter;
 
-public class DrugaFirma {
+public final class DrugaFirma {
 
 }

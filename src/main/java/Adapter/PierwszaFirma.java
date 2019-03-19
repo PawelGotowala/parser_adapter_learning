@@ -7,20 +7,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class PierwszaFirma {
+public final class PierwszaFirma {
     private static List<String[]> flights = new ArrayList<>();
 
-    public static void main(String[] args) {
-        readFileScannerAndSplitByFlightsAndAddToFieldFlights("C:\\Users\\bonzo\\IdeaProjects\\Adapter\\resources\\LOTY1");
-        System.out.println(getNumberOfFlight(0) + getDepartuteTime(0)+getArrivaleTime(0));
-        System.out.println(getDepartuteTime(0));
-        System.out.println(getArrivaleTime(0));
-        System.out.println(getFirstClassPlacesNumebrs(0));
-        System.out.println(getSecondClassPlacesNumebrs(0));
-        System.out.println(getPersonAndNumberOfPlaceAndNumebrOfReservation(0));
 
-            }
 
+    public  void getFlightInfo(){
+    readFileScannerAndSplitByFlightsAndAddToFieldFlights("C:\\Users\\bonzo\\IdeaProjects\\Adapter\\resources\\LOTY1");
+    System.out.println("numer lotu: " + getNumberOfFlight(0));
+    System.out.println("czas odlotu: " + getDepartuteTime(0));
+    System.out.println("czas przylotu: " +getArrivaleTime(0));
+    System.out.println(getFirstClassPlacesNumebrs(0));
+    System.out.println(getSecondClassPlacesNumebrs(0));
+    System.out.println(getPersonAndNumberOfPlaceAndNumebrOfReservation(0));
+
+         }
 
     private static void readFileScannerAndSplitByFlightsAndAddToFieldFlights(String fileNameToRead) {
         String line;
