@@ -7,20 +7,26 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public final class PierwszaFirma {
+public final class ParserDlaPlikuLinii1 {
     private static List<String[]> flights = new ArrayList<>();
 
 
 
-    public  void getFlightInfo(){
+    public List<String[]> getFlightInfo(){
     readFileScannerAndSplitByFlightsAndAddToFieldFlights("C:\\Users\\bonzo\\IdeaProjects\\Adapter\\resources\\LOTY1");
-    System.out.println("numer lotu: " + getNumberOfFlight(0));
-    System.out.println("czas odlotu: " + getDepartuteTime(0));
-    System.out.println("czas przylotu: " +getArrivaleTime(0));
-    System.out.println(getFirstClassPlacesNumebrs(0));
-    System.out.println(getSecondClassPlacesNumebrs(0));
-    System.out.println(getPersonAndNumberOfPlaceAndNumebrOfReservation(0));
+    List<String[]> flightsInfo = new ArrayList<>();
 
+        for (int i = 0; i < flights.size(); i++) {
+            String[] flightInfo = new String[6];
+            flightInfo[0] = getNumberOfFlight(i);
+            flightInfo[1] = getDepartuteTime(i);
+            flightInfo[2] = getArrivaleTime(i);
+            flightInfo[3] = getFirstClassPlacesNumebrs(i);
+            flightInfo[4] = getSecondClassPlacesNumebrs(i);
+            flightInfo[5] = getPersonAndNumberOfPlaceAndNumebrOfReservation(i);
+            flightsInfo.add(flightInfo);
+        }
+        return flightsInfo;
          }
 
     private static void readFileScannerAndSplitByFlightsAndAddToFieldFlights(String fileNameToRead) {
@@ -59,6 +65,7 @@ public final class PierwszaFirma {
 
     private static String getSecondClassPlacesNumebrs(int i){
         String placesNumbers = "Miejsca w drugiej klasie: ";
+
         String[] numebrs = flights.get(i)[4].split("%");
         for(String numeber : numebrs){
             placesNumbers = placesNumbers + numeber + ",";
@@ -69,12 +76,18 @@ public final class PierwszaFirma {
     private static String getPersonAndNumberOfPlaceAndNumebrOfReservation(int i){
         List<String[]> all = new ArrayList<>();
         String allData = "";
-        String[] personsData = flights.get(i)[5].split("%");
-        for(String person: personsData){
-            all.add(person.split("#"));
-        }
-        for (String[] strings : all) {
-            allData = allData + "Nazwisko: " + strings[0] + ". Numera miejsca: " + strings[1] + ". Numer rezerwacji: " + strings[2] + " || ";
+        String[] personsData;
+
+        try {
+            personsData = flights.get(i)[5].split("%");
+            for (String person : personsData) {
+                all.add(person.split("#"));
+            }
+            for (String[] strings : all) {
+                allData = allData + "Nazwisko: " + strings[0] + ". Numera miejsca: " + strings[1] + ". Numer rezerwacji: " + strings[2] + " || ";
+            }
+        } catch(ArrayIndexOutOfBoundsException e) {
+            allData = null;
         }
 
         return allData;
