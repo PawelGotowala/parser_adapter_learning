@@ -16,7 +16,4 @@ public class AdapterLinii1 implements InterfejsDlaUzytkownika {
         return parserDlaPlikuLinii1.getFlightInfo();
     }
 
-
-
-
 }
