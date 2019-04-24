@@ -1,5 +1,6 @@
 package adapter;
 
+import interfaces.IFlightsInfo;
 import model.FlightInfo;
 
 import java.util.ArrayList;

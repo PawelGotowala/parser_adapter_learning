@@ -1,4 +1,4 @@
-package adapter;
+package interfaces;
 
 import model.FlightInfo;
 
@@ -9,4 +9,4 @@ public interface IFlightsInfo {
     List<FlightInfo> createFlightInfoObjectList(String fileNameToRead);
 
 
-};
+}

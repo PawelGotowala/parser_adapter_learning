@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13a51b2b-66fb-4d99-be5e-0444fbb77d1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/FlightInfo.java" afterDir="false" />
+    <list default="true" id="13a51b2b-66fb-4d99-be5e-0444fbb77d1a" name="Default Changelist" comment="Zmiana koncepcji, parsery i adaptery w dobrej formie">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adapter/AdapterLinii1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/AdapterLinii1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adapter/AdapterLinii2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/AdapterLinii2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adapter/InterfejsDlaUzytkownika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/IFlightsInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adapter/ParserDlaPlikuLinii1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adapter/ParserDlaPlikuLinii2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/AdapterLinii1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/AdapterLinii1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/AdapterLinii2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/AdapterLinii2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/IFlightsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/IFlightsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,7 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adapter/AdapterLinii1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="126">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
@@ -40,20 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adapter/IFlightsInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="225">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/adapter/AdapterLinii2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#222#223#0" expanded="true" />
@@ -75,10 +59,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="127" selection-start-line="8" selection-start-column="127" selection-end-line="8" selection-end-column="127" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/FlightInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="369">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#922#923#0" expanded="true" />
                 <element signature="e#959#960#0" expanded="true" />
@@ -98,11 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="18">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -142,13 +136,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Adapter/ParserDlaLini1.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/ParserDlaPlikuLinii2.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/FlightInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adapter/AdapterLinii1.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/IFlightsInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/AdapterLinii2.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/ParserDlaLini2.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii2.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/ParserDlaLini1.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adapter/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interfaces.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adapter/AdapterLinii1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/IFlightsInfo.java" />
       </list>
     </option>
   </component>
@@ -216,22 +213,6 @@
               <item name="Adapter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Adapter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Adapter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Adapter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,7 +233,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556045817700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556117662393" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -261,6 +242,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bonzo\IdeaProjects\Adapter\resources" />
     </key>
@@ -277,13 +261,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ParserDlaPlikuLinii2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Adapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,7 +280,7 @@
       <module name="Adapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,7 +293,7 @@
       <module name="Adapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,9 +303,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ParserDlaPlikuLinii2" />
         <item itemvalue="Application.ParserDlaPlikuLinii1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +325,7 @@
       <workItem from="1553449786066" duration="16991000" />
       <workItem from="1553636175172" duration="10557000" />
       <workItem from="1555160154411" duration="2656000" />
-      <workItem from="1555955033943" duration="9401000" />
+      <workItem from="1555955033943" duration="13643000" />
     </task>
     <task id="LOCAL-00001" summary="wstępna implementacja klasy odpowiedzialnej za czytanie informacji o locie pierwszym sposobem( adaptowany element). Czyli dodanie metody zczytywania z pliku oraz metod do wyciągania informacji. Do poprawienia formatowanie daty oraz napisanie metody głównej do wyświetlania">
       <created>1552685764584</created>
@@ -371,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553647010938</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Zmiana koncepcji, parsery i adaptery w dobrej formie">
+      <created>1556092835480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556092835488</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62660000" />
+    <option name="totallyTimeSpent" value="66902000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +381,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18003026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,7 +390,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2764977" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2764977" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37634408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,7 +419,8 @@
     <MESSAGE value="wstępna implementacja klasy odpowiedzialnej za czytanie informacji o locie pierwszym sposobem( adaptowany element). Czyli dodanie metody zczytywania z pliku oraz metod do wyciągania informacji. Do poprawienia formatowanie daty oraz napisanie metody głównej do wyświetlania" />
     <MESSAGE value="skończony pierwszy rodzaj lini" />
     <MESSAGE value="Napisany ParserDlaLinii2&#10;Refactoring ParserDlalinii1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Napisany ParserDlaLinii2&#10;Refactoring ParserDlalinii1" />
+    <MESSAGE value="Zmiana koncepcji, parsery i adaptery w dobrej formie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmiana koncepcji, parsery i adaptery w dobrej formie" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Adapter/AppTest.java" />
@@ -482,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/LOTY2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adapter/ParserDlaPlikuLinii1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -517,33 +502,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/LOTY1">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="100" lean-forward="true" selection-start-column="100" selection-end-column="100" />
+        <state relative-caret-position="288">
+          <caret line="16" column="153" lean-forward="true" selection-start-line="16" selection-start-column="153" selection-end-line="16" selection-end-column="153" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii2.java">
+    <entry file="file://$PROJECT_DIR$/resources/LOTY2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="-36">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IFlightsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/AdapterLinii1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/FlightInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="369">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#922#923#0" expanded="true" />
             <element signature="e#959#960#0" expanded="true" />
@@ -562,7 +584,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/adapter/AdapterLinii2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#222#223#0" expanded="true" />
@@ -571,31 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/ParserDlaLinii1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/AdapterLinii1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/IFlightsInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="127" selection-start-line="8" selection-start-column="127" selection-end-line="8" selection-end-column="127" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
