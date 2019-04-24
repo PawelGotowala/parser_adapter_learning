@@ -1,7 +1,4 @@
-package Adapter;
-
-import java.util.ArrayList;
-import java.util.List;
+package adapter;
 
 public class Main {
     public static void main(String[] args) {
