@@ -1,3 +1,5 @@
-.idea
-out
-target
+.idea/
+out/
+target/
+classess
+*.iml

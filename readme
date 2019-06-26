@@ -1,0 +1,4 @@
+The program allows you to download flights information from two "suppliers".
+Then it saves them to the list of FlighInfo objects.
+
+
